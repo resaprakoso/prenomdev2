@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/media/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/media/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/media/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/media/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/media/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/media/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/media/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/media/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="assets/media/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="assets/media/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/media/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/media/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="assets/media/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/themes.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Prenom Communications</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="container-nav wrap">
+            <div class="logo">
+                <a href="">
+                    <svg class="logo-svg colorlogo" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 7326 1016" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g>
+                            <path d="M696 727c229,0 362,-147 362,-361 0,-216 -133,-354 -362,-354l-696 0 0 990 172 0 0 -817 524 0c121,0 193,72 193,187 0,111 -72,188 -193,188l-398 0 0 167 398 0zm2696 -229l-155 92 -156 92 0 -110 -348 0 0 -146 348 0 0 -112 156 92 155 92zm-1047 504l-298 -301c128,-49 204,-164 204,-328 0,-220 -133,-361 -359,-361l-711 0 0 990 171 0 0 -817 540 0c118,0 189,63 189,191 0,128 -65,199 -189,199l-413 0 0 152 371 0 250 275 245 0zm975 0l0 -173 -713 0 0 -644 712 0 0 -173 -884 0 0 990 885 0zm1005 -24c25,24 51,37 79,37 51,0 86,-38 86,-104l0 -907 -165 0 0 725 -698 -694c-26,-25 -48,-35 -74,-35 -54,0 -88,39 -88,104l0 898 165 0 0 -724 695 700zm1026 24c282,0 485,-218 485,-505 0,-287 -199,-485 -485,-485l-241 0c-277,0 -481,194 -481,485 0,287 204,505 481,505l241 0zm-241 -173c-178,0 -308,-137 -308,-324 0,-188 131,-320 308,-320l241 0c183,0 312,134 312,320 0,187 -129,324 -312,324l-241 0zm2216 173l-253 -931c-14,-48 -41,-71 -84,-71 -36,0 -66,20 -83,59l-305 700 -305 -700c-16,-39 -50,-59 -87,-59 -46,0 -73,23 -86,71l-254 931 170 0 189 -696 279 645c18,42 48,65 89,65 42,0 69,-23 88,-65l281 -645 189 696 172 0z"/>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="menu">
+                <div class="box-menu">
+                    <a onclick="menuWorks()">WORKS</a>
+                    <a onclick="menuContact()">CONTACT</a>
+                </div>
+            </div>
+            <div class="hamburgericon" onclick="hamburger()">
+                <div>
+                    <div class="line">&nbsp;</div>
+                    <div class="line">&nbsp;</div>
+                    <div class="line">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-mobile" onclick="closeHamburger()">
+        <div id="box-menu-mobile">
+            <svg class="logo-svg colorlogo-white" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 7326 1016" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g>
+                    <path d="M696 727c229,0 362,-147 362,-361 0,-216 -133,-354 -362,-354l-696 0 0 990 172 0 0 -817 524 0c121,0 193,72 193,187 0,111 -72,188 -193,188l-398 0 0 167 398 0zm2696 -229l-155 92 -156 92 0 -110 -348 0 0 -146 348 0 0 -112 156 92 155 92zm-1047 504l-298 -301c128,-49 204,-164 204,-328 0,-220 -133,-361 -359,-361l-711 0 0 990 171 0 0 -817 540 0c118,0 189,63 189,191 0,128 -65,199 -189,199l-413 0 0 152 371 0 250 275 245 0zm975 0l0 -173 -713 0 0 -644 712 0 0 -173 -884 0 0 990 885 0zm1005 -24c25,24 51,37 79,37 51,0 86,-38 86,-104l0 -907 -165 0 0 725 -698 -694c-26,-25 -48,-35 -74,-35 -54,0 -88,39 -88,104l0 898 165 0 0 -724 695 700zm1026 24c282,0 485,-218 485,-505 0,-287 -199,-485 -485,-485l-241 0c-277,0 -481,194 -481,485 0,287 204,505 481,505l241 0zm-241 -173c-178,0 -308,-137 -308,-324 0,-188 131,-320 308,-320l241 0c183,0 312,134 312,320 0,187 -129,324 -312,324l-241 0zm2216 173l-253 -931c-14,-48 -41,-71 -84,-71 -36,0 -66,20 -83,59l-305 700 -305 -700c-16,-39 -50,-59 -87,-59 -46,0 -73,23 -86,71l-254 931 170 0 189 -696 279 645c18,42 48,65 89,65 42,0 69,-23 88,-65l281 -645 189 696 172 0z"/>
+                </g>
+            </svg>
+            <div class="item-menu-mobile label text-center">
+                <a onclick="menuWorks()">WORKS</a>
+                <a onclick="menuContact()">CONTACT</a>
+            </div>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="hero">
+            <div class="container-hero">
+                <div class="box-hero-left">
+                    <div>
+                        <h3>Prenom Communications is all about</h3>
+                        <h1>Making it Happen<br>Making it Works</h1>
+                    </div>
+                </div>
+                <div class="box-hero-right">
+                    <img src="assets/media/img/hero.jpg" alt="Prenom Communications">
+                </div>
+            </div>
+        </div>
+        <div class="about padding-section">
+            <div class="container-about wrap">
+                <h2 class="label text-center">About Us</h2>
+                <p class="text-center space-content">We're a communications agency with busy studio since 2003 in South Jakarta.<br>But we prefer to define ourselves by outlook and attitude.</p>
+                <div class="wrap-box-about space-box">
+                    <div class="box-about">
+                        <h3 class="label-services">COMMUNICATIONS</h3>
+                        <div>
+                            <p>Advertising & Promotion</p>
+                            <p>Branding Management</p>
+                            <p>Campaign Strategy</p>
+                            <p>Marketing Communications Strategy</p>
+                            <p>Corporate Social Responsibility Program</p>
+                        </div>
+                    </div>
+                    <div class="box-about">
+                        <h3 class="label-services">EVENT MANAGEMENT</h3>
+                        <div>
+                            <p>Brand Activation</p>
+                            <p>MICE</p>
+                            <p>Webinar / Virtual Event</p>
+                            <p>Training</p>
+                        </div>
+                    </div>
+                    <div class="box-about">
+                        <h3 class="label-services">GRAPHIC DESIGN</h3>
+                        <div>
+                            <p>Corporate Identity</p>
+                            <p>Marketing Collateral</p>
+                            <p>Video Animation</p>
+                        </div>
+                    </div>
+                    <div class="box-about">
+                        <h3 class="label-services">DIGITAL SOLUTION</h3>
+                        <div>
+                            <p>Digital Advertising & Promotion</p>
+                            <p>Web Management</p>
+                            <p>Social Media Management</p>
+                            <p>Webinar & Meeting</p>
+                            <p>Virtual Gathering & Awarding</p>
+                            <p>Virtual Festival</p>
+                        </div>
+                    </div>
+                    <div class="box-about">
+                        <h3 class="label-services">SIGNAGE SYSTEMS + OOH</h3>
+                        <div>
+                            <p>Branding Standart Identity</p>
+                            <p>Outdoor & Indoor Signage</p>
+                            <p>Road Signage</p>
+                            <p>Promotion Branding & Display</p>
+                        </div>
+                    </div>
+                    <div class="box-about">
+                        <h3 class="label-services">PR & MEDIA</h3>
+                        <div>
+                            <p>Media Campaign Strategy</p>
+                            <p>Media Placement</p>
+                            <p>Internal Media Management</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="works padding-section">
+            <div id="scrollWorks">&nbsp;</div>
+            <div class="container-works wrap">
+                <h2 class="label text-center">We Listen. We Investigate. We Think.</h2>
+                <p class="text-center space-content">And then we back up our creative ideas with hard graft.<br>But at the same time, we make sure that we all have a good time getting there.</p>
+                <div class="wrap-box-works space-box">
+                    <div class="box-works">
+                        <img src="assets/media/img/works1.jpg" alt="Prenom Communications">
+                    </div>
+                    <div class="box-works">
+                        <img src="assets/media/img/works2.jpg" alt="Prenom Communications">
+                    </div>
+                    <div class="box-works">
+                        <img src="assets/media/img/works3.jpg" alt="Prenom Communications">
+                    </div>
+                    <div class="box-works">
+                        <img src="assets/media/img/works4.jpg" alt="Prenom Communications">
+                    </div>
+                    <div class="box-works">
+                        <img src="assets/media/img/works5.JPG" alt="Prenom Communications">
+                    </div>
+                    <div class="box-works">
+                        <img src="assets/media/img/works6.jpg" alt="Prenom Communications">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <h1 class="label text-center">Prenom do many things<br>for many people.</h1>
+            <h3 class="text-center space-content">For some we are stylists, to others strategists,<br>to the enlightened we're thinkers and to fresh-faced we are helpers.</h3>
+        </div>
+        <div class="client padding-section">
+            <h2 class="label text-center">Clients</h2>
+            <div class="wrap-box-client space-box">
+                <div class="aa"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer padding-section">
+        <div id="scrollContact">&nbsp;</div>
+        <div class="container-footer wrap">
+            <div class="banner-footer">
+                <h1 class="label text-center">We're never easy on ourselves,<br>but we have an easy way with our clients.</h1>
+            </div>
+            <div class="wrap-box-footer">
+                <div class="box-footer">
+                    <svg class="logo-svg colorlogo-white" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 7326 1016" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g>
+                            <path d="M696 727c229,0 362,-147 362,-361 0,-216 -133,-354 -362,-354l-696 0 0 990 172 0 0 -817 524 0c121,0 193,72 193,187 0,111 -72,188 -193,188l-398 0 0 167 398 0zm2696 -229l-155 92 -156 92 0 -110 -348 0 0 -146 348 0 0 -112 156 92 155 92zm-1047 504l-298 -301c128,-49 204,-164 204,-328 0,-220 -133,-361 -359,-361l-711 0 0 990 171 0 0 -817 540 0c118,0 189,63 189,191 0,128 -65,199 -189,199l-413 0 0 152 371 0 250 275 245 0zm975 0l0 -173 -713 0 0 -644 712 0 0 -173 -884 0 0 990 885 0zm1005 -24c25,24 51,37 79,37 51,0 86,-38 86,-104l0 -907 -165 0 0 725 -698 -694c-26,-25 -48,-35 -74,-35 -54,0 -88,39 -88,104l0 898 165 0 0 -724 695 700zm1026 24c282,0 485,-218 485,-505 0,-287 -199,-485 -485,-485l-241 0c-277,0 -481,194 -481,485 0,287 204,505 481,505l241 0zm-241 -173c-178,0 -308,-137 -308,-324 0,-188 131,-320 308,-320l241 0c183,0 312,134 312,320 0,187 -129,324 -312,324l-241 0zm2216 173l-253 -931c-14,-48 -41,-71 -84,-71 -36,0 -66,20 -83,59l-305 700 -305 -700c-16,-39 -50,-59 -87,-59 -46,0 -73,23 -86,71l-254 931 170 0 189 -696 279 645c18,42 48,65 89,65 42,0 69,-23 88,-65l281 -645 189 696 172 0z"/>
+                        </g>
+                    </svg>
+                    <p class="space-content">Jl. Putih Melati I No.10i<br>Cipete Utara, Kec. Kby. Baru<br>Kota Jakarta Selatan - 12150</p>
+                </div>
+                <div class="box-footer">
+                    <p>Email : <a class="footer-hover" href="mailto:prenomax@gmail.com" target="_blank">prenomax@gmail.com</a></p>
+                    <p>Phone : <a class="footer-hover" href="https://wa.me/6287775776039?text=Hallo%20Team%20Prenom" target="_blank">087775776039</a></p>
+                    <p>Social Media :</p>
+                    <div class="box-footer-svg">
+                        <a href="https://www.instagram.com/prenomcomm/" target="_blank">
+                            <svg class="colorlogo-white" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 6306 5971" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="Layer_x0020_1">
+                                    <g id="_367830936">
+                                        <path d="M1236 0l3834 0c680,0 1236,556 1236,1236l0 3499c0,680 -556,1236 -1236,1236l-3834 0c-680,0 -1236,-556 -1236,-1236l0 -3499c0,-680 556,-1236 1236,-1236zm276 430l3282 0c582,0 1058,476 1058,1058l0 2995c0,582 -476,1058 -1058,1058l-3282 0c-582,0 -1058,-476 -1058,-1058l0 -2995c0,-582 476,-1058 1058,-1058z"/>
+                                        <path d="M3197 1171c1057,0 1913,857 1913,1913 0,1057 -856,1913 -1913,1913 -1056,0 -1913,-856 -1913,-1913 0,-1056 857,-1913 1913,-1913zm0 492c785,0 1422,636 1422,1421 0,785 -637,1422 -1422,1422 -785,0 -1421,-637 -1421,-1422 0,-785 636,-1421 1421,-1421z"/>
+                                        <circle cx="5007" cy="1207" r="311"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="box-footer-svg">
+                        <a href="https://www.youtube.com/@prenomcommunications5727" target="_blank">
+                            <svg class="colorlogo-white" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 10858 8079" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="Layer_x0020_1">
+                                    <path d="M2128 0l6602 0c1171,0 2128,752 2128,1672l0 4735c0,920 -957,1672 -2128,1672l-6602 0c-1170,0 -2128,-752 -2128,-1672l0 -4735c0,-920 958,-1672 2128,-1672zm475 582l5652 0c1002,0 1821,644 1821,1431l0 4053c0,787 -819,1431 -1821,1431l-5652 0c-1001,0 -1821,-644 -1821,-1431l0 -4053c0,-787 820,-1431 1821,-1431z"/>
+                                    <path d="M7788 4040l-1941 1120 -1941 1121 0 -2241 0 -2242 1941 1121 1941 1121zm-971 0l-1171 675 -1170 676 0 -1351 0 -1352 1170 676 1171 676z"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/common.js"></script>
+</body>
+</html>

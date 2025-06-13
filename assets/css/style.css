@@ -1,0 +1,513 @@
+h1{
+    font-size: 41.7px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 25.8px;
+    box-sizing: border-box;
+}
+
+h3{
+	font-size: 20.8px;
+	box-sizing: border-box;
+}
+
+.wrap{
+    max-width: 1093px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.logo-svg{
+    width: 150px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.colorlogo{
+    fill: #009BC1;
+    color: #009BC1;
+}
+
+.colorlogo-white{
+    fill: white;
+    color: white;
+}
+
+.padding-section{
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+.space-box{
+    margin-top: 2em;
+}
+
+.label{
+    font-weight: 900;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.space-content{
+    margin-top: 1em;
+    box-sizing: border-box;
+}
+
+/* NAV */
+.nav{
+    width: 100%;
+    padding: 15px 20px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.container-nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+}
+
+.logo a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: block;
+    box-sizing: border-box;
+}
+
+.menu a{
+    cursor: pointer;
+}
+
+.box-menu{
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.box-menu a{
+    position: relative;
+    margin-left: 30px;
+    font-weight: 700;
+    color: black;
+    box-sizing: border-box;
+}
+
+.box-menu a::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+
+.box-menu a:hover::after{
+    width: 100%;
+}
+
+.hamburgericon{
+    display: none;
+    width: fit-content;
+    height: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.line{
+    width: 27px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#box-menu-mobile{
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    right: -100%; 
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #007ca1;
+    display: grid;
+    grid-template-rows: 0.3fr 2fr;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.item-menu-mobile a{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin: 1em auto 0 auto;
+    font-size: 25.8px;
+    box-sizing: border-box;
+}
+
+/* MIDDLE */
+/* HERO */
+.hero{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container-hero{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.box-hero-right{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.box-hero-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.box-hero-left div{
+    height: 100%;
+    padding: 20px;
+    font-weight: 900;
+    display: grid;
+    place-content: center;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.box-hero-left h3{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.box-hero-left h1{
+    line-height: 1.2em;
+}
+
+/* ABOUT */
+.about{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+.wrap-box-about{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+}
+
+.box-about{
+    margin: 15px;
+    padding: 30px 45px;
+    background-color: #007ca1;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+
+.box-about:hover{
+    transform: translate(0, -5px);
+}
+
+.label-services{
+    padding: 9px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box-about div{
+    margin-top: 2em;
+}
+
+.box-about div p{
+    border-bottom: 1.5px solid white;
+    padding: 0.5em 0;
+}
+
+/* WORKS */
+.works{
+    background-color: white;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#scrollWorks{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -60px;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.wrap-box-works{
+    padding: 0 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+}
+
+.box-works{
+    height: 400px;
+    margin: 7px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.box-works img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    transition: 500ms;
+}
+
+.box-works img:hover{
+    scale: 1.015;
+}
+
+/* BANNER */
+.banner{
+    min-height: 75vh;
+    padding: 20px;
+    position: relative;
+    color: white;
+    display: grid;
+    place-content: center;
+    box-sizing: border-box;
+}
+
+.banner::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../media/img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.banner::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #007ca1;
+    opacity: 0.75;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+/* CLIENT */
+.client{
+    /* background-color: #007ca1; */
+}
+
+.aa{
+    background-color: black;
+    height: 120px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #007ca1;
+    color: white;
+    position: relative;
+}
+
+#scrollContact{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    top: 250px;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.banner-footer{
+    padding: 50px 15px 110px 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.banner-footer::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: 5px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-hover{
+    position: relative;
+    box-sizing: border-box;
+}
+
+.footer-hover::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+
+.footer-hover:hover::after{
+    width: 100%;
+}
+
+.wrap-box-footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+}
+
+.box-footer p{
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+}
+
+.box-footer-svg{
+    display: inline;
+    margin-right: 1em;
+    box-sizing: border-box;
+}
+
+.box-footer-svg svg{
+    width: auto;
+    height: 24px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+
+.box-footer-svg svg:hover{
+    scale: 1.2;
+}
+
+/* MEDIA */
+@media screen and (max-width: 1200px){
+
+}
+
+@media screen and (max-width: 992px){
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 24.1px;
+    }
+
+    h3{
+        font-size: 19.1px;
+    }
+
+    .hero{
+        height: 110vh;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .hamburgericon{
+        display: block;
+    }
+
+    .wrap-box-about{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .container-hero{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .wrap-box-works{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 671px){
+    .wrap-box-about{
+        grid-template-columns: none;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .wrap-box-footer{
+    grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+}
+
+@media screen and (max-width: 381px){
+    .box-about{
+        padding: 15px;
+    }
+}
