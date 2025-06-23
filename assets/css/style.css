@@ -218,6 +218,14 @@ h3{
     box-sizing: border-box;
 }
 
+.about-desktop{
+    display: block;
+}
+
+.about-mobile{
+    display: none;
+}
+
 .wrap-box-about{
     color: white;
     display: grid;
@@ -260,6 +268,14 @@ h3{
     background-color: white;
     position: relative;
     box-sizing: border-box;
+}
+
+.works-desktop{
+    display: block;
+}
+
+.works-mobile{
+    display: none;
 }
 
 #scrollWorks{
@@ -308,6 +324,14 @@ h3{
     display: grid;
     place-content: center;
     box-sizing: border-box;
+}
+
+.banner-desktop{
+    display: block;
+}
+
+.banner-mobile{
+    display: none;
 }
 
 .banner::before{
@@ -495,6 +519,32 @@ h3{
 
     .wrap-box-footer{
     grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .about-desktop{
+        display: none;
+    }
+
+    .about-mobile{
+        display: block;
+    }
+
+    .works-desktop{
+        display: none;
+    }
+
+    .works-mobile{
+        display: block;
+    }
+
+    .banner-desktop{
+        display: none;
+    }
+
+    .banner-mobile{
+        display: block;
     }
 }
 
