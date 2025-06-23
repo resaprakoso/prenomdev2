@@ -42,3 +42,66 @@ table {
 	border-spacing: 0;
 }
 
+body{
+    color: #2c2c2c;
+}
+
+h1{
+    font-size: 41.7px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 25.8px;
+    box-sizing: border-box;
+}
+
+h3{
+	font-size: 20.8px;
+	box-sizing: border-box;
+}
+
+.wrap{
+    max-width: 1093px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.logo-svg{
+    width: 150px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.colorlogo{
+    fill: #009BC1;
+    color: #009BC1;
+}
+
+.colorlogo-white{
+    fill: white;
+    color: white;
+}
+
+.padding-section{
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+.space-box{
+    margin-top: 2em;
+}
+
+.label{
+    font-weight: 900;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.space-content{
+    margin-top: 1em;
+    box-sizing: border-box;
+}
