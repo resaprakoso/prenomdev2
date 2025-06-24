@@ -344,7 +344,7 @@
     width: fit-content;
     display: flex;
     box-sizing: border-box;
-    animation: slide 14s infinite linear;
+    animation: slide 45s infinite linear;
 }
 
 @keyframes slide {
@@ -357,7 +357,7 @@
 }
 
 .box-client{
-    width: 120px;
+    width: 240px;
     height: 120px;
     box-sizing: border-box;
 }
