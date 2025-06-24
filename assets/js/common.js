@@ -24,3 +24,6 @@ function closeHamburger(){
     const closeHamburger = document.getElementById("box-menu-mobile")
     closeHamburger.style.right = "-100%";
 }
+
+const copy = document.querySelector('.wrap-box-client').cloneNode(true);
+document.querySelector('.container-client').appendChild(copy);
