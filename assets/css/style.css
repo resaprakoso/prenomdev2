@@ -139,6 +139,7 @@
     display: grid;
     place-content: center;
     box-sizing: border-box;
+    color: #007ca1;
     background-color: white;
     position: relative;
 }
