@@ -387,8 +387,8 @@
     display: -ms-flexbox;
     display: flex;
     box-sizing: border-box;
-    -webkit-animation: slide 35s infinite linear;
-            animation: slide 35s infinite linear;
+    -webkit-animation: slide 45s infinite linear;
+            animation: slide 45s infinite linear;
 }
 
 @-webkit-keyframes slide {
